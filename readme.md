@@ -17,6 +17,15 @@ O app oferece uma interface simples via terminal, permitindo buscas múltiplas e
 - Tratamento de erros para falhas na API ou problemas de rede  
 
 ## 📦 Como Executar o Projeto
+Crie um arquivo `config.js` na raiz do projeto com:
+
+```javascript
+// config.js
+const WEATHER_API = {
+  KEY: 'sua_chave_openweathermap_aqui', // Substitua pela sua chave
+  URL: 'https://api.openweathermap.org/data/2.5/weather'
+};
+
 ### Pré-requisitos
 - Node.js (versão 18 ou superior)  
 

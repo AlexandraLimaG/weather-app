@@ -2,6 +2,7 @@
 node_modules/
 
 # Arquivos de ambiente
+config.js
 .env
 .env.local
 
