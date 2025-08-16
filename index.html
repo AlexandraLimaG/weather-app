@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Clima</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-card">
+        <form class="search-form">
+            <input type="text" id="name" placeholder="Buscar cidade..." autocomplete="off">
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <div class="weather-info">
+            <div class="location">
+                <h1 id="city-name">Dhaka</h1>
+                <p id="current-date">Today, 15 April</p>
+            </div>
+
+            <div class="temperature-display">
+                <div class="current-temp">
+                    <span id="temperature">29</span>
+                    <sup>°</sup>
+                </div>
+                <p id="weather-desc">Sunny</p>
+            </div>
+
+            <div class="weather-details">
+                <div class="detail">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>Vento</span>
+                    <span id="wind-speed">19</span> km/h
+                </div>
+                <div class="detail">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span>Umidade</span>
+                    <span id="humidity">22</span>%
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="clima.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+# Dependências do Node.js
+node_modules/
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Arquivos de configuração local
+*.local
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de compilação do TypeScript
+dist/
+build/
+*.js
+*.map
+!jest.config.js
+
+# Arquivos de pacote
+package-lock.json
+yarn.lock
+
+# Arquivos de cache
+.cache/
+.temp/
