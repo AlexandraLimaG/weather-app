@@ -1,8 +1,7 @@
 # 🌦️ Weather App (Open-Meteo API)  
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow) 
-![Node.js](https://img.shields.io/badge/Node.js-18-green) 
-![Axios](https://img.shields.io/badge/Axios-0.27.2-blue) 
+![Node.js](https://img.shields.io/badge/Node.js-18-green)  
 ![License MIT](https://img.shields.io/badge/License-MIT-green)  
 
 ## 📌 Sobre o Projeto

@@ -25,7 +25,6 @@ Thumbs.db
 # Arquivos de compilação do TypeScript
 dist/
 build/
-*.js
 *.map
 !jest.config.js
 
